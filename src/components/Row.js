@@ -4,7 +4,7 @@ import { imageUrl } from "../shared/baseUrl";
 
 import "./styles/row.scss";
 
-function Row({ title, fetchUrl, isLargeRow }) {
+function Row({ title, fetchUrl, isLargeRow, classname }) {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
@@ -16,7 +16,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
     fetchData();
   }, [fetchUrl]);
   return (
-    <div className="row">
+    <div className={`row ${classname}`}>
       <h1>{title}</h1>
 
       <div className="row-posters">

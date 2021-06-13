@@ -18,6 +18,7 @@ const API_KEY = "3c37c3e386dbe8f41c61a032e5ec812c";
 const requests = [
   {
     id: 0,
+    classname: "netflix-originals",
     title: "Netflix Originals",
     fetchUrl: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
     isLargeRow: true,

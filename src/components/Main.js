@@ -11,6 +11,7 @@ function Main() {
           title={request.title}
           fetchUrl={request.fetchUrl}
           isLargeRow={request.isLargeRow}
+          classname={request.classname}
         />
       </div>
     );

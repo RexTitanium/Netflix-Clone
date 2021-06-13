@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Open%20Sans");
 .row {
+  margin: 20px;
   h1 {
-    font-family: "Poppins";
-    margin-left: 20px;
+    font-family: "Open Sans";
+    color: white;
+    font-size: 1.4vw;
+    padding: 10px;
   }
 
   .row-posters {
@@ -10,7 +14,6 @@
     overflow-x: visible;
     padding: 10px;
     display: flex;
-    margin: 20px;
 
     gap: 20px;
     .row-poster-wide {
@@ -37,4 +40,8 @@
       display: none;
     }
   }
+}
+
+.row {
+  transform: translateY(-200px);
 }
