@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+.row {
+  h1 {
+    font-family: "Poppins";
+    margin-left: 20px;
+  }
+
+  .row-posters {
+    overflow-y: hidden;
+    overflow-x: visible;
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+
+    gap: 20px;
+    .row-poster-wide {
+      object-fit: contain;
+      max-height: 150px;
+      cursor: pointer;
+      transition: all 450ms ease;
+      &:hover {
+        transform: scale(1.05);
+        transition: all 450ms ease;
+      }
+    }
+    .row-poster {
+      object-fit: contain;
+      max-height: 250px;
+      cursor: pointer;
+      transition: all 450ms ease;
+      &:hover {
+        transform: scale(1.05);
+        transition: all 450ms ease;
+      }
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
