@@ -42,17 +42,17 @@ function Banner() {
           </h2>
           <div className="banner-buttons">
             <button className="banner-button">
-              <span class="material-icons">play_arrow</span>
+              <span className="material-icons">play_arrow</span>
               <p>Play</p>
             </button>
             <button className="banner-button btn-1">
-              <span class="material-icons">info</span>
+              <span className="material-icons">info</span>
               <p>More Info</p>
             </button>
           </div>
         </div>
+        <div className="empty-row"></div>
       </header>
-      <div className="empty-row"></div>
     </div>
   );
 }

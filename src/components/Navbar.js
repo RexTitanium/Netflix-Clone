@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./styles/navbar.scss";
 
 function Navbar() {
+  const [show, handleShow] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        handleShow(true);
+      } else {
+        handleShow(false);
+      }
+    });
+    return () => {
+      window.removeEventListener("scroll");
+    };
+  }, []);
   return (
-    <div>
-      <h1>Netflix</h1>
-      <p>Site to netflix</p>
+    <div className={`nav ${show && "show"}`}>
+      <img
+        className="nav__logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+        alt="Netflix-Logo"
+      />
+
+      <img
+        className="nav__avatar"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+        alt="Netflix-Avatar"
+      />
     </div>
   );
 }

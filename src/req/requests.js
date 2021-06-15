@@ -13,7 +13,7 @@ const requests={
 
 export default requests;*/
 
-const API_KEY = "3c37c3e386dbe8f41c61a032e5ec812c";
+export const API_KEY = "3c37c3e386dbe8f41c61a032e5ec812c";
 
 const requests = [
   {
