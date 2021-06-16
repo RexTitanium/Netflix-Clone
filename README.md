@@ -27,7 +27,7 @@
 <br/>
 <p align="center">
   <a href="https://github.com/RexTitanium/Netflix-Clone.git">
-    <video src="public/assets/images/site.png" alt="Site" width="800" height="400">
+    <img src="public/assets/images/site.png" alt="Site" width="800" height="400">
   </a>
 </p>
 <br/>
