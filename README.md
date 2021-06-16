@@ -27,11 +27,11 @@
 <br/>
 <p align="center">
   <a href="https://github.com/RexTitanium/Netflix-Clone.git">
-    <video src="public/assets/video/videoshowcase.mp4" alt="Site" width="800" height="400">
+    <video src="public/assets/video/videoshowcase.mkv" alt="Site" width="800" height="400">
   </a>
 </p>
 <br/>
-SpaceX Launch Program
+Netflix Clone
 
 ## Description
 
