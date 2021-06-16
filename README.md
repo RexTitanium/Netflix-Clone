@@ -61,7 +61,7 @@ First Clone the repository. Install npm modules and start the application
 
 - Node
 
-### Instalation
+### Installation
 
 - Clone the repository
   ```sh
